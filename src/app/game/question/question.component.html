@@ -1,0 +1,77 @@
+<div class="question-container">
+  <h2>Question</h2>
+
+  <p class="current-team" *ngIf="currentTeamName && showCurrentTeam">
+    <strong>{{ currentTeamName }}</strong> is answering...
+  </p>
+
+  <div *ngIf="question">
+    <p><strong>{{ question.text }}</strong></p>
+
+    <!-- Choose answer mode -->
+    <div *ngIf="!answerMode && !answered">
+      <button (click)="chooseAnswerMode('open')">Open Answer</button>
+      <button (click)="chooseAnswerMode('tips')">Ask for Tips</button>
+    </div>
+
+    <!-- Open Answer Mode -->
+    <div *ngIf="answerMode === 'open' && !answered && !showStealIntro">
+      <input type="text" [(ngModel)]="userAnswer" placeholder="Type your answer" />
+      <button (click)="submitOpenAnswer()">Submit</button>
+    </div>
+
+    <!-- Tips Mode -->
+    <div *ngIf="answerMode === 'tips' && !answered && question.options?.length">
+      <p><strong>Choose one:</strong></p>
+      <button *ngFor="let option of question.options" (click)="submitTipAnswer(option)">
+        {{ option }}
+      </button>
+    </div>
+
+    <!-- Feedback -->
+    <div *ngIf="answered" class="answer-feedback">
+      <p [innerHTML]="feedback"></p>
+    </div>
+
+    <!-- Steal Intro Feedback -->
+    <div *ngIf="showStealIntro" class="steal-intro-feedback">
+      <button (click)="proceedToSteal()">Attemp Steal</button>
+    </div>
+
+    <!-- Steal -->
+    <div *ngIf="isStealActive && !stealSubmitted" class="steal-block">
+      <p><strong>{{ currentTeamName }} attempt to steal!</strong></p>
+      <input type="text" [(ngModel)]="stealAnswer" placeholder="Enter your answer" />
+      <button (click)="submitSteal()">Submit Steal</button>
+    </div>
+
+    <!-- Steal Feedback -->
+    <div *ngIf="isStealActive && stealSubmitted" class="steal-block">
+      <p [innerHTML]="stealFeedback"></p>
+    </div>
+
+    <div *ngIf="answered && revealCorrectAnswer" class="answer-reveal">
+      <p><em>The correct answer was:</em></p>
+      <p><strong>{{ question.correctAnswer }}</strong></p>
+    </div>
+
+    <!-- Bonus Intro Feedback -->
+    <div *ngIf="showBonusIntro" class="bonus-intro-feedback">
+      <button (click)="proceedToBonus()">Continue to Bonus</button>
+    </div>
+
+    <!-- Bonus -->
+    <div *ngIf="isBonusActive && question.bonusQuestion as bonusQ" class="bonus-block">
+      <p><strong>⭐ Bonus Question:</strong></p>
+      <p>{{ bonusQ.text }}</p>
+      <div *ngIf="isBonusActive && !bonusSubmitted">
+        <input type="text" [(ngModel)]="bonusAnswer" placeholder="Bonus answer..." />
+        <button (click)="submitBonus()">Submit Bonus</button>
+      </div>
+      <p *ngIf="bonusFeedback">{{ bonusFeedback }}</p>
+    </div>
+
+    </div>
+</div>
+
+<button class="back-button" (click)="resetQuestionFlow()">Back</button>

@@ -1,0 +1,25 @@
+<div class="score-bar" *ngIf="gameState">
+  <div [class.active]="gameState.currentTeam === 'A'">
+    {{ gameState.teamA.name }}: {{ gameState.teamA.score }}
+  </div>
+  <div [class.active]="gameState.currentTeam === 'B'">
+    {{ gameState.teamB.name }}: {{ gameState.teamB.score }}
+  </div>
+</div>
+
+<div class="category-board">
+  <div class="category-column" *ngFor="let category of categories">
+    <div class="category-box">{{ category.name }}</div>
+    <div class="question-row">
+      <button
+        class="question-id"
+        [ngClass]="{ 'answered': question.answered }"
+        *ngFor="let question of category.questions"
+        [disabled]="question.answered"
+        (click)="selectQuestion(question.id)"
+      >
+        {{ question.id.toUpperCase() }}
+      </button>
+    </div>
+  </div>
+</div>

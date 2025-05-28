@@ -1,0 +1,39 @@
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f8f9fa;
+}
+
+.form-group {
+  margin: 1.5rem auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #f8f9fa;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #bbb;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: #14b8a6;
+}

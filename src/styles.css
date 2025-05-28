@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background: radial-gradient(circle at right, #5395ee 0%, #2a5298 100%);
+  color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  padding: 0.9rem 1.25rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  background-color: #14b8a6;
+  border: none;
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease-in-out;
+}
+
+.back-button {
+  display: block;
+  margin: 2rem auto 0 auto;
+}
+
+button:hover {
+  background-color: #ffd700;
+  color: #14b8a6;
+  transform: translateY(-2px);
+}
+
+button:focus {
+  outline: 2px solid #facc15;
+  outline-offset: 2px;
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}

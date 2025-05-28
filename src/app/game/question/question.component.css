@@ -1,0 +1,118 @@
+.question-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.question-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #f8f9fa;
+}
+
+.question-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.question-container input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.question-container input::placeholder {
+  color: #bbb;
+}
+
+.question-container button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bonus-block,
+.steal-block,
+.answer-feedback {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bonus-block p,
+.steal-block p,
+.answer-feedback p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #f8f9fa;
+}
+
+.answer-reveal {
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 6px;
+  color: #facc15;
+  font-size: 1.1rem;
+}
+
+.steal-intro-feedback {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #f8f9fa;
+}
+
+.steal-intro-feedback button {
+  margin-top: 1.5rem;
+}
+
+.bonus-intro-feedback {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #f8f9fa;
+}
+
+.current-team {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #ffd700;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+}
