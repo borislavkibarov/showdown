@@ -1,0 +1,47 @@
+[
+  {
+    "id": "its-all-relative",
+    "name": "It's all relative",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How many penguins does it take to change a lightbulb?",
+        "correctAnswer": "None, they prefer the dark.",
+        "options": [
+          "One very determined penguin.",
+          "A full tuxedoed team of five.",
+          "None, they prefer the dark.",
+          "They outsource it to the polar bears."
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "If a tree falls in a forest and no one's around, who updates the group chat?",
+        "correctAnswer": "The squirrel with 5G.",
+        "options": [
+          "The squirrel with 5G.",
+          "Mother Nature.",
+          "It’s auto-forwarded to the cloud.",
+          "No one, trees don’t do drama."
+        ],
+        "hasBonus": true,
+        "bonusQuestion": {
+          "id": "bq1",
+          "text": "What's the squirrel's carrier?",
+          "correctAnswer": "Acorn Mobile"
+        }
+      },
+      {
+        "id": "q3",
+        "text": "What happens when a black hole gets stage fright?",
+        "correctAnswer": "It just sucks.",
+        "options": [
+          "It collapses emotionally.",
+          "It turns into a drama star.",
+          "It just sucks.",
+          "It disappears in a puff of glitter."
+        ]
+      }
+    ]
+  }
+]

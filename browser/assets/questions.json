@@ -1,0 +1,387 @@
+[
+    {
+        "name": "Once Upon a Bedtime",
+        "questions": [
+            {
+                "id": "q1",
+                "text": "What fruit grows in Mossbeard’s beard in the book 'Three Jolly Fellows'(Маншон, Полуобувка и Мъхеста брада)?",
+                "correctAnswer": "Berries",
+                "options": [
+                    "Pears",
+                    "Apples",
+                    "Berries",
+                    "Cherries"
+                ],
+                "hasBonus": true,
+                "bonusQuestion": {
+                    "id": "q1b",
+                    "text": "What colour is Muff's(Маншон) van",
+                    "correctAnswer": "Red"
+                }
+            },
+            {
+                "id": "q2",
+                "text": "What is the name of the grumpy old man who is visited by ghosts in 'A Christmas Carol'?",
+                "correctAnswer": "Scrooge",
+                "options": [
+                    "Scrooge",
+                    "Marley",
+                    "Mr. Fezziwig",
+                    "Cratchit"
+                ]
+            },
+            {
+                "id": "q3",
+                "text": "What is the name of the house where Pippi Longstocking lives?",
+                "correctAnswer": "Villa Villekulla",
+                "options": [
+                    "Sugarcane Cottage",
+                    "Villa Villekulla", 
+                    "Pippi’s Place", 
+                    "Tanglewood House"
+                ]
+            },
+            {
+                "id": "q4",
+                "text": "What is the name of the fairy who is Peter Pan's close companion?",
+                "correctAnswer": "Tinker Bell",
+                "options": [
+                    "Silvermist", 
+                    "Blue Fairy", 
+                    "Fairy Belle", 
+                    "Tinker Bell"
+                ]
+            },
+            {
+                "id": "q5",
+                "text": "Who is the author of the book 'Emil from Lönneberga'?",
+                "correctAnswer": "Astrid Lindgren",
+                "options": [
+                    "Astrid Lindgren", 
+                    "Tove Jansson", 
+                    "Eno Raud", 
+                    "Selma Lagerlöf"
+                ]
+            },
+            {
+                "id": "q6",
+                "text": "What strange creatures work for the Wicked Witch of the West in 'The Wizard of Oz'?",
+                "correctAnswer": "Flying Monkeys",
+                "options": [
+                    "Talking Bats", 
+                    "Flying Monkeys", 
+                    "Wicked Gnomes", 
+                    "Magic Wolves"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Don’t Stop the Lyrics",
+        "questions": [
+            {
+                "id": "q7",
+                "text": "Finish the lyrics: 'But he can't be a man, 'cause he...'",
+                "correctAnswer": "doesn't smoke the same cigarettes as me",
+                "options": [
+                    "ain't got no style like me",
+                    "doesn't know the meaning of free",
+                    "ain't as gangsta as me",
+                    "doesn't smoke the same cigarettes as me"
+                ]
+            },
+            {
+                "id": "q8",
+                "text": "From what song are the lyrics: 'Hello darkness, my old friend, I've come to talk with you again'?",
+                "correctAnswer": "The Sound of Silence",
+                "options": [
+                    "Seek and Destroy",
+                    "The Sound of Silence",
+                    "Blackbird",
+                    "Ain't no rest for the wicked"
+                ]
+            },
+            {
+                "id": "q9",
+                "text": "Finish the lyrics: 'Oh baby when you talk like that, you...'",
+                "correctAnswer": "make a woman go mad",
+                "options": [
+                    "drive me crazy bad",
+                    "make a woman go mad",
+                    "sound just like my dad",
+                    "make me wanna dance"
+                ]
+            },
+            {
+                "id": "q10",
+                "text": "From what song are the lyrics: 'Sticks and stones may break my bones, but chains and whips excite me'?",
+                "correctAnswer": "S&M",
+                "hasBonus": true,
+                "bonusQuestion": {
+                    "id": "q2b",
+                    "text": "Who sings it?",
+                    "correctAnswer": "Rihanna"
+                },
+                "options": [
+                    "S&M", 
+                    "I kissed a girl",
+                    "Alejandro",
+                    "The adventures of Rain Dance Maggie"
+                ]
+            },
+            {
+                "id": "q11",
+                "text":"Finish the lyric: 'Oh, don't you dare look back. Just keep your eyes on me. I said, 'You're holding back', she said:'",
+                "correctAnswer":"Shut up and dance with me",
+                "options": [ 
+                    "Dance with me tonight", 
+                    "Keep dancing with me", 
+                    "Don't stop dancing with me",
+                    "Shut up and dance with me"
+                ]
+            },
+            {
+                "id": "q12",
+                "text":"From what song are the lyrics: 'Tommy used to work on the docks. Union's been on strike, he's down on his luck'",
+                "correctAnswer":"Livin’ on a Prayer",
+                "options": [
+                    "Don't Stop Believin'", 
+                    "Eye of the Tiger", 
+                    "Livin’ on a Prayer", 
+                    "Sweet Child O' Mine"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Silver Screen",
+        "questions": [
+            {
+                "id": "q13",
+                "text": "Which actor plays the role of John McClane in the greatest movie ever made, 'Die Hard'?",
+                "correctAnswer": "Bruce Willis",
+                "options": [
+                    "Bruce Willis", 
+                    "Mel Gibson", 
+                    "Sylvester Stallone", 
+                    "Harrison Ford"
+                ],
+                "hasBonus": true,
+                "bonusQuestion": {
+                    "id": "q3b",
+                    "text": "Which actor plays Hans Gruber?",
+                    "correctAnswer": "Alan Rickman"
+                }
+            },
+            {
+                "id": "q14",
+                "text": "From which city does Axel Foley come before heading to Beverly Hills in the movie 'Beverly Hills Cop'?",
+                "correctAnswer": "Detroit",
+                "options": [
+                    "Chicago", 
+                    "New York", 
+                    "Detroit", 
+                    "Philadelphia"
+                ]
+            },
+            {
+                "id": "q15",
+                "text": "In which movie does a teenager travel through time by reaching 88 miles per hour in a modified DeLorean?",
+                "correctAnswer": "Back to the Future",
+                "options": [
+                    "Time Bandits", 
+                    "Bill & Ted's Excellent Adventure", 
+                    "Back to the Future", 
+                    "The Time Machine"
+                ]
+            },
+            {
+                "id": "q16",
+                "text": "In the movie 'The Terminator', what model of cyborg is portrayed by Arnold Schwarzenegger?",
+                "correctAnswer": "T-800",
+                "options": [
+                    "T-800", 
+                    "RX-200", 
+                    "Nimbus-2000", 
+                    "M-600"
+                ]
+             },
+            {
+                "id": "q17",
+                "text": "Despite his fearless adventures, what is Indiana Jones famously afraid of?",
+                "correctAnswer": "Snakes",
+                "options": [
+                    "Spiders", 
+                    "Snakes", 
+                    "Heights", 
+                    "Rats"
+                ]
+            },
+            {
+                "id": "q18",
+                "text": "In the movie 'Pirates of the Caribbean', what mythical sea creature serves under Davy Jones?",
+                "correctAnswer": "Kraken",
+                "options": [
+                    "Leviathan", 
+                    "Kraken", 
+                    "Sea Serpent", 
+                    "The Flying Dutchman"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Animated Adventures",
+        "questions": [
+            {
+                "id": "q19",
+                "text": "What is the name of the boy who is turned into a bear in the movie 'Brother Bear'?",
+                "correctAnswer": "Kenai",
+                "options": [
+                    "Koda", 
+                    "Kenai", 
+                    "Sitka", 
+                    "Denahi"
+                ]
+            },
+            {
+                "id": "q20",
+                "text": "In the movie 'Kung Fu Panda', what type of animal is Tai Lung?",
+                "correctAnswer": "Snow Leopard",
+                "options": [
+                    "Tiger", 
+                    "Panther", 
+                    "Snow Leopard", 
+                    "Wolf"
+                ]
+            },
+            {
+                "id": "q21",
+                "text": "What is King Julien’s favorite song in 'Madagascar', the one he just can't stop dancing to?",
+                "correctAnswer": "I Like to Move It",
+                "options": [
+                    "I Like to Move It", 
+                    "Can’t Touch This", 
+                    "Boogie Wonderland", 
+                    "Get Lucky"
+                ],
+                "hasBonus": true,
+                "bonusQuestion": {
+                    "id": "q4b",
+                    "text": "What type of animal is King Julien in the movie 'Madagascar'?",
+                    "correctAnswer": "Lemur"
+                }
+            },
+            {
+                "id": "q22",
+                "text": "What do Timon and Pumbaa call their carefree, no-worries philosophy in 'The Lion King'?",
+                "correctAnswer": "Hakuna Matata",
+                "options": [
+                    "No Worries", 
+                    "Viva la Vida", 
+                    "Hakuna Bananas", 
+                    "Hakuna Matata"
+                ]
+            },
+            {
+                "id": "q23",
+                "text": "In 'Shrek', what food does Shrek compare ogres to, because they have layers?",
+                "correctAnswer": "Onions",
+                "options": [
+                    "Onions", 
+                    "Cakes", 
+                    "Tacos", 
+                    "Cabbage"
+                ]
+            },
+            {
+                "id": "q24",
+                "text": "In 'Cars', what is Luigi’s biggest passion — besides tires, of course?",
+                "correctAnswer": "Ferrari",
+                "options": [
+                    "Ferrari", 
+                    "Porsche", 
+                    "Maserati", 
+                    "Lamborghini"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Name That Theme",
+        "questions": [
+            {
+                "id": "q25",
+                "text": "From which TV show or movie is this theme?",
+                "correctAnswer": "Entourage",
+                "options": [
+                    "Californication", 
+                    "Entourage", 
+                    "Ballers", 
+                    "Suits"
+                ]
+            },
+            {
+                "id": "q26",
+                "text": "From which TV show or movie is this theme?",
+                "correctAnswer": "Harry Potter",
+                "options": [
+                    "Harry Potter", 
+                    "The Chronicles of Narnia", 
+                    "The Golden Compass", 
+                    "Percy Jackson & the Olympians"
+                ],
+                "hasBonus": true,
+                "bonusQuestion": {
+                    "id": "q5b",
+                    "text": "In which movie does it first feature?",
+                    "correctAnswer": "Harry Potter and the Half-Blood Prince"
+                }
+            },
+            {
+                "id": "q27",
+                "text": "From which TV show or movie is this theme?",
+                "correctAnswer": "Game of Thrones",
+                "options": [
+                    "The Witcher", 
+                    "Vikings", 
+                    "Game of Thrones", 
+                    "House of the Dragon"
+                ]
+            },
+            {
+                "id": "q28",
+                "text": "From which TV show or movie is this theme?",
+                "correctAnswer": "The Mandalorian",
+                "options": [
+                    "The Book of Boba Fett", 
+                    "The Mandalorian", 
+                    "Obi-Wan Kenobi", 
+                    "Andor"
+                ]
+            },
+            {
+                "id": "q29",
+                "text": "From which TV show or movie is this theme?",
+                "correctAnswer": "Bourne",
+                "options": [
+                    "Mission: Impossible", 
+                    "John Wick", 
+                    "Bourne", 
+                    "Skyfall"
+                ]
+            },
+            {
+                "id": "q30",
+                "text": "From which TV show or movie is this theme?",
+                "correctAnswer": "Stranger Things",
+                "options": [
+                    "Dark", 
+                    "Stranger Things", 
+                    "Twin Peaks", 
+                    "Black Mirror"
+                ]
+            }
+        ] 
+    }
+]
