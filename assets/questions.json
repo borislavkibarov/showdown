@@ -54,13 +54,13 @@
             },
             {
                 "id": "q5",
-                "text": "Who is the author of the book 'Emil from Lönneberga'?",
-                "correctAnswer": "Astrid Lindgren",
+                "text": "What does the narrator draw that grown-ups mistake for a hat in 'The Little Prince'?",
+                "correctAnswer": "A snake that has swallowed an elephant",
                 "options": [
-                    "Astrid Lindgren", 
-                    "Tove Jansson", 
-                    "Eno Raud", 
-                    "Selma Lagerlöf"
+                    "A hat",
+                    "A camel with a hump",
+                    "A snake that has swallowed an elephant",
+                    "A whale with a belly full of fish"
                 ]
             },
             {
