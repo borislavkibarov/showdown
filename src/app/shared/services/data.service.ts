@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
   
-  private readonly demoDataUrl = 'assets/demo-questions.json';
-  private readonly dataUrl = 'assets/questions.json';
+  private readonly demoDataUrl = 'https://raw.githubusercontent.com/borislavkibarov/showdown/refs/heads/main/src/assets/demo-questions.json';
+  private readonly dataUrl = 'https://raw.githubusercontent.com/borislavkibarov/showdown/refs/heads/main/src/assets/questions.json';
 
   constructor(private http: HttpClient) {}
 
